@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	
+	
+
+body {
+ 
+ 	background-image: url('Drink up.JPEG');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Times New Romans;
+	color: white;
+	
+}
+	P1{
+		color: navajowhite;
+		 float: left;
+		background-color: chocolate;
+		width:105%;
+		text-decoration:underline;
+		font-size: 25px;
+		text-align: center;
+		}
+	
+	P2{color: Black;
+		text-decoration:underline;
+		font-size: 20px;
+		text-align: center;
+	}
+	
+h1 {
+    color: olive;
+    font-family: Times New Romans;
+    font-size: 25px;
+    display: block;
+    text-align: left;
+    text-decoration: underline;
+}
+	
+h2 {
+	color: Black;
+	text-align: left;
+    font-size: 22px;
+    font-family: Times New Romans;
+	text-decoration:underline;
+	}
+	
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+ul li {
+  float: left;
+  width:240px;
+  height:38px;
+  background-color:cadetblue;
+  opacity:6;
+  line-height:40px;
+  text-align: center;
+  font-size:20px;
+  margin-right:0px;
+  margin-left:0px;
+
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+ul li a:hover{
+	background-color:cyan;
+}
+ul li ul li {
+		display:none;
+}
+ul li :hover ul li {
+	display: block;
+}
+
+	#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+	</style>
+
+
+	<h1 style="text-align:center; font-size:40px;"><strong><a href="index.html">Delightful Cafe</a> </strong></h1>
+
+
+	<ul>
+		<li><a href="index.html"><b>HOME</b></a></li>
+	
+		
+		<ul> 
+			<li><a href="Menus.html"><b>FOOD</b></a></li>
+			<li><a href="Drinks.html"><b>DRINKS</b></a></li>
+			<li><a href="About.html"><b>ABOUT US</b></a></li>
+			<li><a href="Contact.html">CONTACT US</a></li>
+
+		</ul>
+	</ul>
+		<br>
+		
+	<table>
+		
+		<td><img src ="coke2.png"  alt="" width="235" height= "300"/>
+		<ul>
+		  <h1>Coke</h1>
+		  <p2>PRICE $4.50</p2>
+		</ul></td>
+			
+	<td><img src ="sprite.png" alt=""  width= "235" height= "300"/>
+		<ul>
+		  <h1>Sprite</h1>
+		  <p2>PRICE $4.00</p2>
+		</ul></td>
+			
+			
+			
+		<td><img src ="minute.png" alt=""  width= "190" height= "300"/>
+		<ul>
+		  <h1>Minute Maid</h1>
+		  <p2>PRICE $4.00</p2>
+		</ul>
+		</td><br>
+		
+		<td><img src ="monster.png" alt=""  width= "300" height= "300"/>
+		<ul>
+			<h1>Monster</h1>
+		  <p2>PRICE $7.50</p2>
+		</ul></td><br>
+		
+		<td><img src ="lavish.png" alt=""  width= "140" height= "300"/>
+		<ul>
+			<h1>Lavish</h1>
+		  <p2>PRICE $7.50</p2>
+		</ul></td>
+	
+
+	</table>
+		
+	<br>
+	
+	
+	<table>
+	<td><img src ="Malt.png" alt="Roti"  width= "180" height= "300"/>
+		<ul>
+			<h1>Vita Malt1</h1>
+		  <p2>PRICE $5.00</p2>
+		</ul></td>
+		
+					
+		<ul>
+			<td><img src ="Gate.png" alt=""  width= "300" height= "300">
+			<h1>Gatorade</h1>
+		  <p2>PRICE $5.00</p2>
+			</td>
+		</ul>
+		<br>
+		
+			<ul>
+			<td><img src ="Coffee.png" alt=""  width= "300" height= "300">
+			<h1>Coffee</h1>
+		  <p2>PRICE $4.00</p2>
+			</td>
+		</ul>
+		<br>
+
+	</table>
+	<br>
+	
+		
+		
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	
+<script>
+var mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+	<style>
+.footer {
+  position:inherit;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: indianred;
+  color: white;
+  text-align: center;
+}
+		</style>
+<div class="footer">
+	<footer><strong><em>All Copyright to Hakeem Charles</em></strong></footer>
+	</div>
+	</head>
+</html>
